@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300;400&family=Rubik+80s+Fade&family=Ubuntu+Condensed&display=swap');
+
+.container-bar {
+    height:100%;
+    width: 100%;
+    background-color: #f90050;
+    display: grid;
+    grid-template-columns:30% 30% 40%;
+    justify-content:center;
+    
+
+}
+
+
+.item-bar {
+   display: flex;
+   align-items: center;
+
+}
+
+.logo {
+    height:100px;
+    width:200px;
+}
+
+#menu-items {
+    font-family: swap, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+#menu-items:hover{
+    background-color:rgb(218, 104, 104);
+}
+
+

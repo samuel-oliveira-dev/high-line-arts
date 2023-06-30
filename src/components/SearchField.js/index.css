@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300;400&family=Rubik+80s+Fade&family=Ubuntu+Condensed&display=swap');
+.corpo {
+    width: 25vw;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    border:1px solid;
+    color:black;
+}
+
+.icon {
+    width:25px;
+    height: 25px;
+}
+
+.campo {
+    width: 25vw;
+    height: 10vh;
+    padding-right: 30px;
+    border: none;
+    border-radius: 8px;
+
+  }
+
+  .campo::placeholder {
+    color:gray;
+    font-family:'swap', sans-serif;
+    font-size: 16px;
+    padding-left: 3px;
+ 
+
+  }
+
+.campo-container {
+    position:relative;
+    display: inline-block;
+}
+
+.campo-icon {
+    position:absolute;
+    top: 40%;
+    right: 10px;
+    height: 20px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.image-icon{
+    width: 25px;
+    height: 25px;
+}
