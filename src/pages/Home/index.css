@@ -1,0 +1,41 @@
+.main-container {
+
+    display: grid;
+    gap:5px;
+    border: 3px solid black;
+    background-color: aqua;
+
+    grid-template-areas: 
+    'banner banner banner'
+    'cards cards cards cards'
+    'footer footer footer';
+}
+
+.content {
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+#banner {
+    grid-area: banner;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cards {
+    grid-area: cards;
+    height: 40%;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+.slider {
+    background-color: aliceblue;
+    width:60%;
+    height: 80%;
+    margin-bottom: 20px;
+}

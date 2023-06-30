@@ -1,10 +1,7 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box'
-import Menu from '@mui/material/Menu'
-import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography'; 
-import TextField from '@mui/material/TextField'
 import SearchField from '../SearchField.js/SearchField';
 import logo from './images/logo.png';
 import IconButton from '@mui/material/IconButton';
@@ -35,7 +32,7 @@ const menuItems = [
 export default function UpBar (){
     return (
         <Box className="container" id="template-areas" sx={{width:'100%', height:'20vh'}}>
-            <AppBar id="header" position="static" color="default" className="bar">
+            <AppBar id="header" position="fixed" color="default" className="bar">
                <Box className="container-bar" id="template-areas">
                     <Box className="item-bar" >
                         <img className="logo" src={logo}></img>

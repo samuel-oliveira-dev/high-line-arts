@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from 'react-dom'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
