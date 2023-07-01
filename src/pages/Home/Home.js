@@ -1,5 +1,7 @@
 import Box from '@mui/material/Box';
 import UpBar from '../../components/UpBar/UpBar'
+import Slider from '../../components/Slider/Slider';
+import Card from '../../components/Card/Card';
 import './index.css';
 export default function Home(){
 
@@ -9,13 +11,16 @@ export default function Home(){
             <Box id="template-areas"className="main-cointainer" sx={{width:'100%', height:'2000px'}}>
                 <Box className="content" id="banner">
                     <Box className="slider">
-
+                        <Slider/>
                     </Box>
                 </Box>
                 <Box className="content"id="cards">
-                    <p>
-                        Cards
-                    </p>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </Box>
                 <Box className="content"id="servicos">
                     <p>Serviços</p>
