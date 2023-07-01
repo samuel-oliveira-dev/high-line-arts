@@ -5,7 +5,7 @@ import img3 from './images/capivara3.jpg';
 import  './index.css';
 export default function Slider() {
     return (
-        <ul style={{backgroundColor:'blue'}}className="slider-main">
+        <ul style={{}}className="slider-main">
             <li>
                 <input type="radio" id="slide1" name="slide" defaultChecked/>
                 <label htmlFor="slide1"/>

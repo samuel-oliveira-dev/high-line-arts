@@ -5,7 +5,7 @@
     width: 100%;
     background-color: #f90050;
     display: grid;
-    grid-template-columns:30% 30% 40%;
+    grid-template-columns:25% 35% 40%;
     justify-content:center;
     
 
@@ -15,6 +15,7 @@
 .item-bar {
    display: flex;
    align-items: center;
+ 
 
 }
 
@@ -32,4 +33,22 @@
     background-color:rgb(218, 104, 104);
 }
 
+
+@media (max-width: 600px) {
+    #menu-items {
+        display: none;
+    }
+    #header {
+        width: 550px;
+        left: 0px;
+       
+    }
+
+    .container-bar {
+        grid-template-columns:35% 60% 5%;
+
+    }
+    
+
+}
 

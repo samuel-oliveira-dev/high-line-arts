@@ -6,10 +6,11 @@ import './index.css';
 export default function Home(){
 
     return(
-        <Box >
+        <Box className="main" >
             <UpBar />
             <Box id="template-areas"className="main-cointainer" sx={{width:'100%', height:'2000px'}}>
                 <Box className="content" id="banner">
+                        {/* <Slider/> */}
                     <Box className="slider">
                         <Slider/>
                     </Box>

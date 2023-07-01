@@ -20,8 +20,10 @@
     grid-area: banner;
     height: 23%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+
+    
 }
 
 #cards {
@@ -41,9 +43,59 @@
     grid-area: footer;
 }
 
+
 .slider {
-    /*background-color: yellow;*/
-    width:60%;
+    width:70%;
     height: 80%;
-   
+ 
 }
+/* .slider {
+  
+    width:100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    
+    
+    
+   
+} */
+
+@media (max-width: 600px){
+    .main{
+        width:600px;
+
+    }
+
+    #banner {
+        width:600px;
+    }
+
+
+    #cards{
+        width:440px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .slider {
+        margin-right: 6vw;
+    }
+
+    
+
+
+}
+
+/* @media (max-width:1075px){
+    #cards {
+        width: 1074px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+/* @media (max-width:952px){
+    #cards {
+        width: 951px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */

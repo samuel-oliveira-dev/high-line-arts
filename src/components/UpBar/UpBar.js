@@ -32,9 +32,10 @@ const menuItems = [
 export default function UpBar (){
     return (
         <Box className="container" id="template-areas" sx={{width:'100%', height:'20vh'}}>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <AppBar id="header" position="fixed" color="default" className="bar">
                <Box className="container-bar" id="template-areas">
-                    <Box className="item-bar" >
+                    <Box id="id-logo" className="item-bar" >
                         <img className="logo" src={logo}></img>
                     </Box>
                     <Box className="item-bar">
